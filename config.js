@@ -11,10 +11,10 @@ System.config({
     "*": "dist/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
-    "common/ej.*": "jspm_packages/github/syncfusion/JavaScript-Widgets@14.1.46/Scripts/common/ej.*.js",
-    "datavisualization/ej.*": "jspm_packages/github/syncfusion/JavaScript-Widgets@14.1.46/Scripts/datavisualization/ej.*.js",
-    "ej.*": "jspm_packages/github/syncfusion/JavaScript-Widgets@14.1.46/Scripts/web/ej.*.js",
-    "syncfusion-javascript/*": "jspm_packages/github/syncfusion/JavaScript-Widgets@14.1.46/*"
+    "common/ej.*": "jspm_packages/github/syncfusion/JavaScript-Widgets@14.2.26/Scripts/ej/common/ej.*.js",
+    "datavisualization/ej.*": "jspm_packages/github/syncfusion/JavaScript-Widgets@14.2.26/Scripts/ej/datavisualization/ej.*.js",
+    "ej.*": "jspm_packages/github/syncfusion/JavaScript-Widgets@14.2.26/Scripts/ej/web/ej.*.js",
+    "syncfusion-javascript/*": "jspm_packages/github/syncfusion/JavaScript-Widgets@14.2.26/*"
   },
 
   map: {
@@ -44,7 +44,7 @@ System.config({
     "jquery-validation": "npm:jquery-validation@1.15.0",
     "jquery-validation-unobtrusive": "npm:jquery-validation-unobtrusive@3.2.6",
     "jsrender": "npm:jsrender@0.9.77",
-    "syncfusion-widgets": "github:syncfusion/JavaScript-Widgets@14.1.46",
+    "syncfusion-widgets": "github:syncfusion/JavaScript-Widgets@14.2.26",
     "text": "github:systemjs/plugin-text@0.0.3",
     "github:aurelia-ui-toolkits/aurelia-syncfusion-bridge@master": {
       "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.2.2",
@@ -75,9 +75,11 @@ System.config({
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
     },
-    "github:syncfusion/JavaScript-Widgets@14.1.46": {
+    "github:syncfusion/JavaScript-Widgets@14.2.26": {
       "jquery": "npm:jquery@2.2.4",
-      "jquery-easing": "npm:jquery.easing@1.3.2",
+      "jquery-easing": "npm:jquery-easing@0.0.1",
+      "jquery-validation": "npm:jquery-validation@1.15.0",
+      "jquery-validation-unobtrusive": "npm:jquery-validation-unobtrusive@3.2.6",
       "jsrender": "npm:jsrender@0.9.77"
     },
     "github:twbs/bootstrap@3.3.6": {
@@ -230,6 +232,9 @@ System.config({
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
+    },
+    "npm:jquery-easing@0.0.1": {
+      "jquery": "npm:jquery@2.2.4"
     },
     "npm:jquery-validation-unobtrusive@3.2.6": {
       "jquery": "npm:jquery@2.2.4",
