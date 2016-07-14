@@ -67,7 +67,7 @@
       "aurelia-pal-browser": "npm:aurelia-pal-browser@^1.0.0-beta.1.1.4",
       "aurelia-polyfills": "npm:aurelia-polyfills@^1.0.0-beta.1.0.0",
       "aurelia-router": "npm:aurelia-router@^1.0.0-beta.1.1.0",
-      "aurelia-syncfusion-bridge": "github:aurelia-ui-toolkits/aurelia-syncfusion-bridge@master",
+      "aurelia-syncfusion-bridge": "npm:aurelia-syncfusion-bridge^0.2.0",
       "aurelia-templating-binding": "npm:aurelia-templating-binding@^1.0.0-beta.1.1.0",
       "aurelia-templating-resources": "npm:aurelia-templating-resources@^1.0.0-beta.1.1.0",
       "aurelia-templating-router": "npm:aurelia-templating-router@^1.0.0-beta.1.1.0",
@@ -80,7 +80,7 @@
       "jquery-validation": "npm:jquery-validation@1.15.0",
       "jquery-validation-unobtrusive": "npm:jquery-validation-unobtrusive@3.2.6",
       "jsrender": "npm:jsrender@^0.9.75",
-      "syncfusion-widgets": "github:syncfusion/JavaScript-Widgets@^14.1.46",
+      "syncfusion-widgets": "github:syncfusion/JavaScript-Widgets@^14.2.26",
       "text": "github:systemjs/plugin-text@^0.0.4"
     },
     "devDependencies": {
